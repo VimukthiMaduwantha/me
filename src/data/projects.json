@@ -1,0 +1,86 @@
+[
+    {
+        "image": "assets/project-thumbnails/m1.png",
+        "title": "Me'n'u Restaurant",
+        "description": "The POS system for Me'n'u Restaurant is a comprehensive, standalone solution designed to streamline and optimize restaurant operations. It offers full CRUD (Create, Read, Update, Delete) functionality across several key management areas, including food management, bill management, user management, and report generation. The food management module allows seamless control over the menu, inventory, and pricing, ensuring that all items are accurately tracked and updated. Bill management simplifies the billing process, enabling efficient handling of orders, payments, and receipts. User management ensures secure and organized control of staff access and roles within the system. Additionally, the report generation feature provides valuable insights into sales, inventory, and overall performance, empowering the restaurant management team to make informed decisions. This robust POS system is tailored specifically for Me'n'u Restaurant, facilitating smooth day-to-day operations and enhancing customer service.",
+        "techs": [
+            "React js, Node js, Express js, sqlite"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/bloommark.png",
+        "title": "BloomMark Web App",
+        "description": "We pride ourselves on delivering cutting-edge technology solutions that enhance business operations. Recently, we had the privilege of developing a cloud point of sales (POS) system for Bloommark, a leading clothing shop renowned for its contemporary fashion collections and exceptional customer service. Our objective was to design and implement a robust, user-friendly, and scalable POS system that would streamline Bloommark's sales processes, improve inventory management, and provide real-time data insights, ultimately leading to a superior shopping experience for Bloommark's customers. Key features of our solution include cloud-based architecture for enhanced data accessibility and security, an intuitive user interface to simplify sales processes and reduce transaction times, comprehensive inventory management for real-time tracking and automatic reordering, detailed sales reporting and analytics for valuable insights, seamless integration with existing business systems, and scalability to accommodate Bloommark's growth. By implementing this advanced cloud POS system, Bloommark is well-equipped to enhance operational efficiency, improve customer satisfaction, and drive business growth. We are proud of this successful collaboration and look forward to continuing to support Bloommark in its technological journey.",
+        "techs": [
+            "React js, Node js, Express js, MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/bloommark.png",
+        "title": "Four Paws Veterinary Web App",
+        "description": "We pride ourselves on delivering cutting-edge technology solutions that enhance business operations. Recently, we had the privilege of developing a cloud point of sales (POS) system for Bloommark, a leading clothing shop renowned for its contemporary fashion collections and exceptional customer service. Our objective was to design and implement a robust, user-friendly, and scalable POS system that would streamline Bloommark's sales processes, improve inventory management, and provide real-time data insights, ultimately leading to a superior shopping experience for Bloommark's customers. Key features of our solution include cloud-based architecture for enhanced data accessibility and security, an intuitive user interface to simplify sales processes and reduce transaction times, comprehensive inventory management for real-time tracking and automatic reordering, detailed sales reporting and analytics for valuable insights, seamless integration with existing business systems, and scalability to accommodate Bloommark's growth. By implementing this advanced cloud POS system, Bloommark is well-equipped to enhance operational efficiency, improve customer satisfaction, and drive business growth. We are proud of this successful collaboration and look forward to continuing to support Bloommark in its technological journey.",
+        "techs": [
+            "React js, Node js, Express js, MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/iwt.png",
+        "title": "Recruitment Company System",
+        "description": "This system is used to find job opportunities for the people and also this is used to enter new job oppertunities to the system.",
+        "techs": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "PHP"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/itp.jpg",
+        "title": "Learning Management System",
+        "description": "This website is developed for a client who is Sahethra Edcucation Institute.Through this website we can do all the processes of the Institute",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/mad1.png",
+        "title": "Filmhall management system(Android)",
+        "description": "This is the Mobile application I had developed. In this application users can book filmhalls and reserve seats of the film hall.",
+        "techs": [
+            "Anroid Studio"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/travel.png",
+        "title": "Visit SriLanka tourism website",
+        "description": "This website motivate the tourists to visit the country. Because I include the beautiful places for the website.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/agri.png",
+        "title": "Agriculture Management System.",
+        "description": "This system is mainly do the harvest seles, fertilizer sales and raise concerns/ loans. Farmer and buyers can easy to manage the tasks easily.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/restu.PNG",
+        "title": "Restaurant Management System.",
+        "description": "This system is manages all the restaurant funtions. Customers can order the foods online and pay their payments online. In this system, customer chan view so many varieties of foods with differnt flavours.",
+        "techs": [
+            "React JS"
+        ]
+    }
+]
