@@ -1,0 +1,44 @@
+/* ExperienceTimeline.css */
+.timeline-container {
+    position: relative;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 100%;
+    border-left: 4px solid #701C1C;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 2rem;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background-color: #701C1C;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background-color: #ffffff05;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.tech-stack {
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
