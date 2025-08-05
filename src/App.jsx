@@ -73,7 +73,7 @@ function App() {
         }}>
           <Particles
             particleColors={['#e1e1f0', '#e1e1f0']}
-            particleCount={200}
+            particleCount={250}
             particleSpread={10}
             speed={0.1}
             particleBaseSize={100}
@@ -97,7 +97,7 @@ function App() {
             <a href="#about" onClick={() => setIsOpen(false)}>About</a>
             <a href="#technology" onClick={() => setIsOpen(false)}>Technologies</a>
             <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
-            <a href="#project" onClick={() => setIsOpen(false)}>Projects</a>
+            {/* <a href="#project" onClick={() => setIsOpen(false)}>Projects</a> */}
             <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
           </div>
           <div
@@ -171,35 +171,144 @@ function App() {
         </section>
 
         {/* About section */}
-        <section id="about" style={{ textAlign: 'center', height: 'auto', paddingTop: '40px' }}>
-          <Grid container spacing={2} sx={{ height: { md: '100vh', xs: 'auto' } }}>
-            <Grid item md={5} xs={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-              <Typography sx={{ fontSize: '50px', fontWeight: 'bold', display: { md: 'none', xs: 'contents' }, color: '#FFB433' }}>More About Me</Typography>
-              <img
-                src={me}
-                alt='vimu'
-                className='myPhoto1'
-              />
-            </Grid>
-            <Grid item md={5} xs={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: '20px' }} >
-              <Typography sx={{ fontSize: '50px', fontWeight: 'bold', display: { md: 'contents', xs: 'none' }, color: '#FFB433', }}>More About Me</Typography>
-              <Typography>
-                Vimukthi Maduwantha is a highly skilled Software Engineer and a final-year student at the Sri Lanka Institute of Information Technology,
-                hands-on industry experience in software development. I specialize in full-stack development, working with the MERN stack, .NET, and Flutter,
-                along with expertise in MongoDB, Node.js, Express, React, and SQL Server. My industry experience includes developing cloud-based systems, AI-driven screening
-                tools, and interactive learning applications. I have worked on enterprise-level projects, integrating OAuth authentication, managing databases, and optimizing
-                system performance. I have experience in POS systems, user management, and report generation for businesses. My research work involved feasibility studies,
-                machine learning, and collaborations with schools to develop technology-driven solutions for education. Additionally, you have worked with MudBlazor components,
-                developed robotics and kinematics simulations, and have experience in data science using Pandas and OpenCV. With strong analytical skills, problem-solving
-                abilities, and a passion for research-driven technology, I continuously develop
-                innovative solutions that make a real-world impact in both academic and professional environments.
+        <section id="about" style={{ height: 'auto', paddingTop: '95px', display: 'flex', justifyContent: 'center' }}>
+          <Grid container spacing={2} sx={{ width: '80vw' }}>
+            <Grid item md={6} xs={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', }} >
+              <Typography sx={{ fontSize: '50px', fontWeight: 'bold', color: '#FFB433', textAlign: 'start' }}>About Me</Typography>
+              <Typography sx={{ fontFamily: "Space Grotesk, serif", textAlign: 'start', lineHeight: 1.8, }}>
+                I'm a passionate full-stack developer with a strong foundation in software engineering and a sharp eye for design. My experience spans university projects, freelance work, and professional roles, where I've built scalable and user-focused solutions across both frontend and backend systems.
               </Typography>
+              <br />
+              <Typography sx={{ fontFamily: "Space Grotesk, serif", textAlign: 'start', lineHeight: 1.8, }}>
+                I thrive on solving complex problems and continuously exploring emerging technologies. With a commitment to clean, efficient code and seamless user experiences, I enjoy turning ideas into functional, impactful digital products.
+              </Typography>
+            </Grid>
+            <Grid item md={6} xs={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+              <Grid container spacing={2} >
+                <Grid item md={6} xs={12} >
+                  <Card sx={{
+                    backgroundColor: 'rgba(254, 249, 225, 0.1)',
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
+                    height: "100px",
+                    width: { md: "auto", xs: 'auto' },
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '10px',
+                    overflow: 'hidden',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      cursor: 'pointer',
+                    },
+                  }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                      <Typography sx={{
+                        fontFamily: "Bitcount, system-ui", fontSize: '50px',
+                        background: "linear-gradient(to right, #B6F500)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}>2+</Typography>
+                      <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Years Of Experience</Typography>
+                    </div>
+                  </Card>
+                </Grid>
+                <Grid item md={6} xs={12} >
+                  <Card sx={{
+                    backgroundColor: 'rgba(254, 249, 225, 0.1)',
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
+                    height: "100px",
+                    width: { md: "auto", xs: 'auto' },
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '10px',
+                    overflow: 'hidden',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      cursor: 'pointer',
+                    },
+                  }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                      <Typography sx={{
+                        fontFamily: "Bitcount, system-ui", fontSize: '50px',
+                        background: "linear-gradient(to right, #ff8a00)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}>20+</Typography>
+                      <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Completed Projects</Typography>
+                    </div>
+                  </Card>
+                </Grid>
+                <Grid item md={6} xs={12} >
+                  <Card sx={{
+                    backgroundColor: 'rgba(254, 249, 225, 0.1)',
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
+                    height: "100px",
+                    width: { md: "auto", xs: 'auto' },
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '10px',
+                    overflow: 'hidden',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      cursor: 'pointer',
+                    },
+                  }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                      <Typography sx={{
+                        fontFamily: "Bitcount, system-ui", fontSize: '50px',
+                        background: "linear-gradient(to right, #dbdd39ff)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}>15+</Typography>
+                      <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Technologies</Typography>
+                    </div>
+                  </Card>
+                </Grid>
+                <Grid item md={6} xs={12} >
+                  <Card sx={{
+                    backgroundColor: 'rgba(254, 249, 225, 0.1)',
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
+                    height: "100px",
+                    width: { md: "auto", xs: 'auto' },
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    padding: '10px',
+                    overflow: 'hidden',
+                    transition: 'all 0.3s ease',
+                    '&:hover': {
+                      transform: 'scale(1.05)',
+                      cursor: 'pointer',
+                    },
+                  }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                      <Typography sx={{
+                        fontFamily: "Bitcount, system-ui", fontSize: '50px',
+                        background: "linear-gradient(to right, #03A791)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                      }}>
+                        100%</Typography>
+                      <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Client Satisfaction</Typography>
+                    </div>
+                  </Card>
+                </Grid>
+              </Grid>
             </Grid>
           </Grid>
         </section>
 
         {/* Technology section */}
-        <section id="technology" style={{ height: 'auto', paddingTop: '95px', paddingBottom: '90px', display: 'flex', justifyContent: 'center' }}>
+        <section id="technology" style={{ height: 'auto', paddingTop: '95px', display: 'flex', justifyContent: 'center' }}>
           <Grid container spacing={2} sx={{
             height: 'auto', width: '90%',
             // width: '100%',
@@ -621,11 +730,11 @@ function App() {
         </section>
 
         {/* Experience section start */}
-        <section id="experience" style={{ height: 'auto', paddingTop: '95px', paddingBottom: '90px', display: 'flex', justifyContent: 'center' }}>
+        <section id="experience" style={{ height: 'auto', paddingTop: '95px', display: 'flex', justifyContent: 'center' }}>
           <Grid container spacing={2} sx={{
             height: 'auto', width: '90%'
           }}>
-            <Grid item md={12} xs={12} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', marginBottom: '50px', textAlign: 'center', }} >
+            <Grid item md={12} xs={12} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', textAlign: 'center', }} >
               <Typography sx={{ fontSize: { md: '50px', xs: '35px' }, fontWeight: 'bold', color: '#FFB433' }}>My Professional Work Experience</Typography>
             </Grid>
             <Grid item md={12} xs={12}  >
@@ -637,7 +746,7 @@ function App() {
         {/* Experience section end */}
 
         {/* project section start*/}
-        <section id="project" style={{ textAlign: 'center', height: 'auto', }}>
+        {/* <section id="project" style={{ textAlign: 'center', height: 'auto', }}>
           < Grid container spacing={2} sx={{
             height: '100vh', pt: "80px",
             pr: '20px',
@@ -670,7 +779,7 @@ function App() {
               </Card>
             </Grid>
           </Grid>
-        </section>
+        </section> */}
         {/* project section end */}
 
         {/* contact section start */}
@@ -776,7 +885,8 @@ function App() {
               </Card>
             </Grid>
           </Grid>
-          <Footer />
+          <br />
+          {/* <Footer /> */}
         </section>
         {/* contact section end */}
       </ThemeProvider >
