@@ -46,14 +46,14 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const DownloadCV = () => {
-    fetch('assets/resume/Vimukthi_Maduwantha.pdf').then((response) => {
+    fetch('assets/resume/Vimukthi_Madhuwantha.pdf').then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'Vimukthi Maduwantha.pdf';
+        alink.download = 'Vimukthi Madhuwantha.pdf';
         alink.click();
       });
     });
@@ -378,7 +378,7 @@ function App() {
                       objectFit: "contain",
                     }}
                   />
-                  <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>JavaScript</Typography>
+                  <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Java</Typography>
                 </div>
               </Card>
             </Grid>
