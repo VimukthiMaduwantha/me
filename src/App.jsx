@@ -113,7 +113,7 @@ function App() {
           <Grid container spacing={2} sx={{ height: '100vh' }}>
             <Grid item md={7} xs={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
               <Typography sx={{ fontSize: { md: '5vw', xs: '12vw' }, fontFamily: 'Lilita One, sans-serif', fontWeight: 'bold', color: '#FFB433', letterSpacing: '10px' }}>Hello, I'm</Typography>
-              <Typography sx={{ fontSize: { md: '5vw', xs: '12vw' }, fontFamily: 'Lilita One, sans-serif', textAlign: 'center' }}>Vimukthi Maduwantha</Typography>
+              <Typography sx={{ fontSize: { md: '5vw', xs: '12vw' }, fontFamily: 'Lilita One, sans-serif', textAlign: 'center' }}>Vimukthi Madhuwantha</Typography>
               <Typography sx={{ fontSize: '20px', fontFamily: "Space Grotesk, serif", }}>Software Engineer | Full Stack Developer</Typography>
               <div style={{ marginBottom: '10px' }}>
                 <a
