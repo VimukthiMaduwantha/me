@@ -1,0 +1,113 @@
+/* ExperienceTimeline.css */
+.timeline-container {
+    position: relative;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 2rem;
+    background-color: 'rgba(254, 249, 225, 0.1)';
+    backdrop-filter: 'blur(10px)';
+    -webkit-backdrop-filter: 'blur(10px)';
+}
+
+/* .timeline-dot {
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background-color: #701C1C;
+    border-radius: 50%;
+} */
+
+.timeline-content {
+    background-color: #ffffff05;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    color: #888;
+    background: "radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%)";
+    -webkit-background-clip: "text";
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.tech-stack {
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.expTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .expTime {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+/* pullet points */
+.timeline-dot {
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle, rgba(247, 247, 247, 1) 0%, rgba(118, 118, 117, 1) 0%, rgba(112, 112, 111, 1) 0%, rgba(255, 215, 0, 1) 100%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-dot::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(112, 28, 28, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    animation: rippleWave 1s infinite;
+}
+
+@keyframes rippleWave {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulseDot {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(112, 28, 28, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 6px rgba(112, 28, 28, 0);
+    }
+}

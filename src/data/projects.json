@@ -1,0 +1,95 @@
+[
+    {
+        "image": "assets/project-thumbnails/fourpaws.png",
+        "title": "Four Paws Veterinary Web App",
+        "description": "POS system for veterinary shops with billing, inventory, reporting, and admin dashboard for seamless sales, stock, and business management. ",
+        "techs": [
+            "React js",
+            "Node js",
+            "Express js",
+            "MySql"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/m1.png",
+        "title": "Me'n'u Restaurant",
+        "description": "Me'n'u Restaurant's POS system is a standalone solution with full CRUD functionality. It manages food, bills, users, and generates reports to optimize operations.",
+        "techs": [
+            "React js",
+            "Node js",
+            "Express js",
+            "sqlite"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/bloommark.png",
+        "title": "BloomMark Web App",
+        "description": "Cloud POS for Bloommark clothing shop: streamlines sales, manages inventory, and delivers real-time insights to boost efficiency and customer experience.",
+        "techs": [
+            "React js",
+            "Node js",
+            "Express js",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/iwt.png",
+        "title": "Recruitment Company System",
+        "description": "Platform that connects job seekers and employers by helping people find new opportunities while allowing users to post and manage job openings easily.",
+        "techs": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "PHP"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/itp.jpg",
+        "title": "Learning Management System",
+        "description": "This website is developed for a client who is Sahethra Edcucation Institute.Through this website we can do all the processes of the Institute",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/mad1.png",
+        "title": "Filmhall management system",
+        "description": "This is the Mobile application I had developed. In this application users can book filmhalls and reserve seats of the film hall.",
+        "techs": [
+            "Anroid Studio"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/travel.png",
+        "title": "Visit SriLanka tourism website",
+        "description": "A website that motivates tourists to visit the country by showcasing its most beautiful and attractive places.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/agri.png",
+        "title": "Agriculture Management System.",
+        "description": "System for farmers and buyers to manage harvest sales, fertilizer sales, and raise concerns/loans easily for smoother agricultural transactions.",
+        "techs": [
+            "React JS",
+            "Express JS",
+            "Node JS",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/restu.PNG",
+        "title": "Restaurant Management System.",
+        "description": "System that manages all restaurant functions, lets customers order and pay online, and explore a wide variety of foods with different flavors.",
+        "techs": [
+            "React JS"
+        ]
+    }
+]
