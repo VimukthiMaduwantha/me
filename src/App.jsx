@@ -827,7 +827,7 @@ function App() {
                         boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
                         borderRadius: 4,
                         backgroundColor: 'rgba(254, 249, 225, 0.1)',
-                        height: '380px'
+                        height: { md: '380px', xs: 'auto' }
                       }}
                     >
                       <CardActionArea>
