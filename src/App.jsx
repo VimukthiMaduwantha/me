@@ -30,9 +30,10 @@ import mui from './assets/tech/Material UI.svg'
 import mongo from './assets/tech/MongoDB.svg'
 import MySQL from './assets/tech/MySQL.svg'
 import net from './assets/tech/NET core.svg'
-import tailwind from './assets/tech/tailwindcss-original-wordmark.svg'
+import tailwind from './assets/tech/TailwindCSS.svg'
 import sql from './assets/tech/SQL Developer.svg'
 import PHP from './assets/tech/PHP.svg'
+import Next from './assets/tech/Nextjs.svg'
 import ExperienceStepper from './components/ExperienceStepper';
 import Particles from './components/Particles';
 
@@ -65,7 +66,7 @@ function App() {
   }, [isOpen]);
 
   const DownloadCV = () => {
-    fetch('assets/resume/Vimukthi_Madhuwantha.pdf').then((response) => {
+    fetch('assets/resume/Vimukthi_Maduwantha.pdf').then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
@@ -635,6 +636,37 @@ function App() {
               }}>
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                   <img
+                    src={Next}
+                    style={{
+                      height: "100px",
+                      maxHeight: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Next.Js</Typography>
+                </div>
+              </Card>
+            </Grid>
+            <Grid item md={2} xs={6} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+              <Card sx={{
+                backgroundColor: 'rgba(254, 249, 225, 0.1)',
+                backdropFilter: 'blur(10px)',
+                WebkitBackdropFilter: 'blur(10px)',
+                height: "180px",
+                width: "180px",
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: '10px',
+                overflow: 'hidden',
+                transition: 'all 0.3s ease',
+                '&:hover': {
+                  transform: 'scale(1.05)',
+                  cursor: 'pointer',
+                },
+              }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                  <img
                     src={tailwind}
                     style={{
                       height: "100px",
@@ -642,7 +674,7 @@ function App() {
                       objectFit: "contain",
                     }}
                   />
-                  <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Tailwind</Typography>
+                  <Typography sx={{ color: 'white', fontFamily: "Space Grotesk, serif", fontSize: '20px' }}>Tailwind Css</Typography>
                 </div>
               </Card>
             </Grid>
