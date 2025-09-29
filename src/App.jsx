@@ -874,6 +874,7 @@ function App() {
                         style={{
                           overflow: 'hidden',
                           transition: 'transform 0.4s ease',
+                          objectFit: 'cover',
                         }}
                         onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.05)')}
                         onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
