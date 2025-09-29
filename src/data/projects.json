@@ -33,6 +33,26 @@
         ]
     },
     {
+        "image": "assets/project-thumbnails/calcpal.jpeg",
+        "title": "CalcPal",
+        "description": "Dyscalculia is a learning disability that affects understanding of math tasks, symbols, basic operations, and simple patterns.",
+        "techs": [
+            "Flutter",
+            "Spring Boot",
+            "Python",
+            "Docker / Kubernates",
+            "MongoDB"
+        ]
+    },
+    {
+        "image": "assets/project-thumbnails/foodie.PNG",
+        "title": "Food Delivery System",
+        "description": "Home, Restaurants, Features, Menu, Testimonials & Contact—explore food, order online, view reviews, and connect easily.",
+        "techs": [
+            "Next JS"
+        ]
+    },
+    {
         "image": "assets/project-thumbnails/iwt.png",
         "title": "Recruitment Company System",
         "description": "Platform that connects job seekers and employers by helping people find new opportunities while allowing users to post and manage job openings easily.",

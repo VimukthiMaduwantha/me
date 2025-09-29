@@ -859,39 +859,48 @@ function App() {
                         boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
                         borderRadius: 4,
                         backgroundColor: 'rgba(254, 249, 225, 0.1)',
-                        height: { md: '380px', xs: 'auto' }
+                        height: { md: '400px', xs: 'auto' },
+                        transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                        '&:hover': {
+                          transform: 'translateY(-8px)',
+                          boxShadow: '0 8px 40px rgba(0, 0, 0, 0.2)',
+                        },
                       }}
                     >
-                      <CardActionArea>
-                        <img
-                          src={project.image}
-                          width='100%'
-                          height='200px'
-                          style={{ overflow: 'hidden' }}
-                        />
-                        <CardContent>
-                          <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white', fontWeight: '400' }}>
-                            {project.title}
-                          </Typography>
-                          <Typography gutterBottom variant="body2" sx={{ color: 'white' }}>
-                            {project.description}
-                          </Typography>
-                          <br />
-                          {project.techs.map((tech, index) => (
-                            <Chip key={index} label={tech} variant="filled" sx={{
-                              backgroundColor: 'rgba(255, 255, 255, 0.2)',
-                              backdropFilter: 'blur(6px)',
-                              WebkitBackdropFilter: 'blur(6px)',
-                              color: '#ffffffff',
-                              marginRight: '5px',
-                              fontSize: '0.7rem',
-                              fontFamily: "Space Grotesk, serif",
-                              borderRadius: '5px'
+                      <img
+                        src={project.image}
+                        width='100%'
+                        height='200px'
+                        style={{
+                          overflow: 'hidden',
+                          transition: 'transform 0.4s ease',
+                        }}
+                        onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.05)')}
+                        onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div" sx={{ color: 'white', fontWeight: '400' }}>
+                          {project.title}
+                        </Typography>
+                        <Typography gutterBottom variant="body2" sx={{ color: 'white' }}>
+                          {project.description}
+                        </Typography>
+                        <br />
+                        {project.techs.map((tech, index) => (
+                          <Chip key={index} label={tech} variant="filled" sx={{
+                            backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                            backdropFilter: 'blur(6px)',
+                            WebkitBackdropFilter: 'blur(6px)',
+                            color: '#ffffffff',
+                            marginRight: '5px',
+                            fontSize: '0.7rem',
+                            fontFamily: "Space Grotesk, serif",
+                            borderRadius: '5px',
+                            marginBottom: '5px'
 
-                            }} size="small" />
-                          ))}
-                        </CardContent>
-                      </CardActionArea>
+                          }} size="small" />
+                        ))}
+                      </CardContent>
                     </Card>
                   </Grid >
                 </>
